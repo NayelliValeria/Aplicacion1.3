@@ -1,0 +1,152 @@
+@CHARSET "ISO-8859-1";
+
+/* Se define el estilo general de las páginas
+ * -Conenedor general : #contenedor
+ * -Cabecer: #header
+ * -Conenido: #contenido
+ * -Pie de página: #footer
+ * */
+
+/*
+ *CSS y CSS3 validado! :D
+ * Nota: para la validación se deben omitir las etiquetas -webkit, -moz y -o que no son stadar
+ * sin embargo son necesarias para mejorar la compatibilidad con los navegadores.
+ * */
+
+html
+{
+	height: 100%;
+}
+
+body
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0px;	
+	height:auto;
+	overflow: auto;
+}
+
+ /*Div*/
+#contenedor
+{
+	width: 90%;
+	height:100%;
+	margin-left:5%;
+	background: white;
+	overflow: hidden;
+}
+
+#contenido
+{
+	top:5px;
+	padding:2px;
+	padding-top:3px;
+	border-radius:10px;
+	border: 1px solid gray;
+	position:relative;
+	overflow:hidden;
+	height: 100%;
+}
+
+#contenidoR
+{
+	top:5px;
+	padding:2px;
+	padding-top:3px;
+	border-radius:10px;
+	border: 1px solid gray;
+	position:relative;
+	height: auto;
+	overflow:hidden;
+}
+
+#contenidoR::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+/*cabecera*/
+#header
+{
+	margin-top: 1%;
+	background: #a7c5ee; 
+	height: 100px;
+	z-index: 1;
+}
+
+#sesion
+{
+	height:10px;
+	width: 100%;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding:none;
+	text-align:center;
+	background:#A7C5EE;
+	opacity:0.7;
+	font-size: 14px;
+	font-weight: bold;
+	color:#000000;
+}
+
+#sesion a {font-size:12px;}
+
+/*pie de pagina*/
+#footer
+{
+	padding: 10px;
+	height:40px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	color: #000;
+	clear:both;
+	margin-top: 30px;
+}
+
+div #footer a
+{
+	float:inherit;
+	text-decoration: underline; 
+	color: #000; 
+}
+
+/*Iframes*/
+#tablaCandidatos
+{
+	height: auto;
+	padding: 5px;
+}
+
+iframe
+{
+	width:100%;
+	display:block;
+	border: none;
+	overflow:hidden;
+}
+
+iframe::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+#id_candidato
+{
+	display: none;
+}
+
+/*Validacion*/
+div #validacion{
+	padding:2px;
+	margin-bottom:10px;
+	margin-top:0;
+	padding-top:0;
+}
+
+#tableReclutadores{ 
+	margin-left:15%;
+	width: 70%;}
+	
+#todo {overflow-y: hidden;}
