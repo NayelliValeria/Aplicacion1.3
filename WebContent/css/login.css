@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+.login
+{
+	align-items: center;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+#contenido_login
+{
+	height:400px;
+	width:65%;
+	border:none;
+	margin:10% 20% 10% 20%;
+}
+
+#enviar
+{
+	margin-top: 40px;
+}
+
+fieldset
+{
+	font-size:25px;
+	padding:10% 22% 10% 22%;
+	border-radius:5px;
+}
+
+input[type="text"],input[type="password"]
+{
+	width: 300px;
+	height:50px;
+	border-radius:5px;
+	border:#a1a5ac solid 1px;
+}
+
+input[type="password"]{ font-size: 30px;}
+
+button
+{
+	alignment : center;
+	width: 150px;
+	height:40px;
+	padding: 5px;
+	font-size:18px;
+	display: block;
+	margin-top:30px;
+	margin-left: 20%;
+}
